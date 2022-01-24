@@ -4,28 +4,28 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <section className={styles.container}>
-      <header className={styles.header}>
-        <div className={styles.header__icon} >
-          <Image
-            src="/img/headerIcon/menu.png"
-            alt="menu icon"
-            loading="eager"
-            width={35}
-            height={35}
-            priority
-          />
-        </div>
-        <h1 style={{ letterSpacing: "1px", textAlign: "left" }}>
-          <Link href="/">
-            <a>
-              <span style={{ fontWeight: 250 }}>Keita</span>
-              <span style={{ fontWeight: 100 }}>Shimizu</span>
-            </a>
-          </Link>
-        </h1>
-      </header>
-    </section>
+        // <header className="text-gray-600 body-font">
+        //   <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+        //     <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        //       <a className="mr-5 hover:text-orange-400">Home</a>
+        //       <a className="mr-5 hover:text-orange-400">About me</a>
+        //       <a className="mr-5 hover:text-orange-400">Third Link</a>
+        //       <a className="mr-5 hover:text-orange-400">Contact</a>
+        //     </nav>
+        //   </div>
+        // </header>
+
+    <nav className="bg-white shadow">
+    <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize">
+        <a href="#" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-200 transform hover:border-blue-500 mx-1.5 sm:mx-6">Profile</a>
+
+        <a href="#" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-200 transform hover:border-blue-500 mx-1.5 sm:mx-6">Skill</a>
+
+        <a href="#" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-200 transform hover:border-blue-500 mx-1.5 sm:mx-6">Works</a>
+
+        <a href="#" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-200 transform hover:border-blue-500 mx-1.5 sm:mx-6">Contact</a>
+    </div>
+</nav>
   );
 }
 

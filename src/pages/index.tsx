@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Footer } from '../components/footer'
 import Header from '../components/header'
 import { AboutSection } from '../components/main/AboutSection'
 import { TopSection } from '../components/main/TopSection'
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <TopSection />
       <AboutSection />
+      <Footer />
     </MainLayout>
   )
 }
