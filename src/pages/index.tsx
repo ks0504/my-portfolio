@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Footer } from '../components/footer'
 import Header from '../components/header'
-import { AboutSection } from '../components/main/AboutSection'
-import { TopSection } from '../components/main/TopSection'
+import { SkillSection } from '../components/main/SkillSection'
+import { ProfileSection } from '../components/main/ProfileSection'
 import MainLayout from '../layouts'
-import styles from '../styles/Home.module.scss'
+import { WorksSection } from '../components/main/WorksSection'
+import { ContactSection } from '../components/main/ContactSection'
 
 export default function Home() {
   return (
@@ -14,8 +14,10 @@ export default function Home() {
         <title>Keita Shimizu</title>
       </Head>
       <Header />
-      <TopSection />
-      <AboutSection />
+      <ProfileSection />
+      <SkillSection />
+      <WorksSection />
+      <ContactSection />
       <Footer />
     </MainLayout>
   )
