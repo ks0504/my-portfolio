@@ -4,7 +4,7 @@ type LayoutProps = {
 
 function MainLayout({ children }: LayoutProps): JSX.Element {
   return (
-      <main className="mt-10">{children}</main>
+      <main>{children}</main>
   );
 }
 

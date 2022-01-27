@@ -1,9 +1,9 @@
 export const Footer =() =>{
     return(
 
-<footer className="bg-white w-full py-8">
+<footer className="bg-white w-full py-2">
     <div className="max-w-screen-xl mx-auto px-4">
-        <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
+        <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between font-serif">
             <li className="my-2">
                 <a href="#profile" className="text-gray-400 hover:text-gray-800 transition-colors duration-200" >
                     Profile
