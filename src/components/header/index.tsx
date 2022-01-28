@@ -2,12 +2,11 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <>
-      <div className="text-center text-5xl text-gray-800 p-36 font-serif bg-orange-300">
-        Keita Shimizu&apos;s Portfolio!!!!
+    <div className="h-screen flex flex-col">
+      <div className="flex justify-center items-center text-5xl text-gray-800 h-full font-serif bg-orange-300">
+          Keita Shimizu&apos;s Portfolio!!!!
       </div>
-      {/* <nav className="bg-white shadow fixed top-0 left-0 right-0"> */}
-      <nav className="bg-white shadow sticky top-0 z-50 py-3">
+      <nav className="bg-white shadow sticky z-50 py-3">
         <div className="container text-right p-1 mx-auto text-gray-600 text-3xl capitalize font-serif">
             <a href="#profile" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-200 transform hover:border-orange-300 mx-1.5 sm:mx-6">Profile</a>
 
@@ -18,7 +17,7 @@ function Header() {
             <a href="#contact" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-200 transform hover:border-orange-300 mx-1.5 sm:mx-6">Contact</a>
         </div>
       </nav>
-    </>
+    </div>
   );
 }
 
