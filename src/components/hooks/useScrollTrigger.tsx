@@ -19,7 +19,7 @@ export const useScrollTrigger= ({name})=> {
             },
             {
                 autoAlpha:1,
-                backgroundColor:"orange",
+                backgroundColor:"#f6ad55",
                 color:"white",
                 scrollTrigger: {
                     trigger: `#${name}`,
@@ -29,9 +29,58 @@ export const useScrollTrigger= ({name})=> {
                 }
             }
         )
+        gsap.fromTo(
+                `#${name} h1`,{
+                autoAlpha:0,
+                color:'gray'
+            },
+            {
+                autoAlpha:1,
+                color:"white",
+                scrollTrigger: {
+                    trigger: `#${name}`,
+                    start:'top 85%',
+                    end:'top 15%',
+                    scrub:true
+                }
+            }
+        )
+        gsap.fromTo(
+            `#${name} p`,{
+            autoAlpha:0,
+            color:'gray'
+        },
+        {
+            autoAlpha:1,
+            color:"white",
+            scrollTrigger: {
+                trigger: `#${name}`,
+                start:'top 85%',
+                end:'top 15%',
+                scrub:true
+            }
+        }
+        )
+        gsap.fromTo(
+            `#${name} h2`,{
+            autoAlpha:0,
+            color:'gray'
+        },
+        {
+            autoAlpha:1,
+            color:"white",
+            scrollTrigger: {
+                trigger: `#${name}`,
+                start:'top 85%',
+                end:'top 15%',
+                scrub:true
+            }
+        }
+        )
+
         gsap.from(
             `#${name}`,{
-                backgroundColor:"orange",
+                backgroundColor:"#f6ad55",
                 color:"white",
                 scrollTrigger: {
                     trigger: `#${name}`,
