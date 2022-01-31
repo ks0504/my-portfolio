@@ -12,7 +12,7 @@ export const WorksSection = () => {
     return (
       <section id='works' className="lg:h-screen bg-white">
         <div className="px-6 py-8 w-full h-full mx-auto pt-20" id="wrapper-works">
-            <h1 className="text-5xl text-gray-800 font-serif">Works</h1>
+            <h1 className="text-6xl text-gray-800 font-serif">Works</h1>
             <div className="grid py-10 sm:px-10 gap-8 row-gap-5 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
             <div className="w-auto lg:w-auto lg:h-80 transition duration-300 transform bg-white rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
                 <div className="relative">
