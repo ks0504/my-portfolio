@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="h-screen flex flex-col">
       <>
-        <div className="flex justify-center items-center text-8xl text-sky-200 h-full font-serif bg-orange-400">
+        <div className="flex justify-center items-center text-8xl text-white h-full font-serif bg-orange-400">
             Keita Shimizu&apos;s Portfolio!!!!
         </div>
         <Particles options={Params as RecursivePartial<IOptions>} />
