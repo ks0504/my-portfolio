@@ -1,4 +1,3 @@
-
 import { FaDatabase, FaServer,FaToolbox,FaPencilAlt} from "react-icons/Fa"
 import {RiComputerLine} from "react-icons/Ri"
 import {useScrollTrigger} from '../hooks/useScrollTrigger'

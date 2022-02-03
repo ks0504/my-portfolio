@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import {AiOutlineMail} from 'react-icons/Ai'
 import { useScrollTrigger } from '../hooks/useScrollTrigger';
 import { ContactIcons } from '../icons/ContactIcons'
 

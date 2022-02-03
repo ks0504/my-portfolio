@@ -1,4 +1,4 @@
-import {AiFillMail} from "react-icons/Ai"
+import {AiFillMail} from "react-icons/ai"
 
 export const ContactIcons =() =>{
     return(
