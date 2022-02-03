@@ -1,5 +1,5 @@
-import { FaDatabase, FaServer,FaToolbox,FaPencilAlt} from "react-icons/Fa"
-import {RiComputerLine} from "react-icons/Ri"
+import { FaDatabase, FaServer,FaToolbox,FaPencilAlt} from "react-icons/fa"
+import {RiComputerLine} from "react-icons/ri"
 import {useScrollTrigger} from '../hooks/useScrollTrigger'
 
 type ScrollTriggerType = {
