@@ -15,7 +15,7 @@ export const WorksSection = () => {
         <div className="px-6 py-8 w-full h-full mx-auto pt-20" id="wrapper-works">
             <h1 className="text-6xl text-gray-800 font-serif">Works</h1>
             <div className="grid py-10 sm:px-10 gap-8 row-gap-5 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
-              <div className="w-auto lg:w-auto lg:h-80 transition duration-300 transform bg-sky-300 rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
+              <div className="w-auto lg:w-auto lg:h-full transition duration-300 transform border-2 border-sky-200 rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
                 <div className="relative w-full h-96">
                   <Image
                     src="/images/photo/my-portfolio.png"
@@ -23,22 +23,25 @@ export const WorksSection = () => {
                     alt="my-portfolio"
                   />
                 </div>
-                <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8 bg-orange-300">
+                <div className="px-6 py-8 border-0 rounded-b sm:px-8 bg-orange-300">
                   <h5 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-                    work1
+                    Portfolio
                   </h5>
-                  <p className="mb-5 text-gray-700">
-                    work1の説明
-                  </p>
+                  <div className="mb-5 text-gray-700">
+                    <p>このポートフォリオです。</p>
+                    <p>Next.js/TypeScript</p>
+                  </div>
                   <button
                     type="submit"
                     className="border-2 border-sky-200 inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                   >
-                    Github
+                    <a href="https://github.com/ks0504/my-portfolio" target="_blank" rel="noopener noreferrer">
+                      Github
+                    </a>
                   </button>
                 </div>
               </div>
-              <div className="w-auto lg:w-auto lg:h-80 transition duration-300 transform bg-white rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
+              <div className="w-auto lg:w-auto lg:h-full transition duration-300 transform border-2 border-sky-200 rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
                 <div className="relative  w-full h-96">
                   <Image
                     src="/images/photo/image-search.png"
@@ -46,22 +49,25 @@ export const WorksSection = () => {
                     alt="image-search app"
                   />
                 </div>
-                <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8 bg-orange-300">
+                <div className="px-6 py-8 border-0 rounded-b sm:px-8 bg-orange-300">
                   <h5 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-                    work2
+                    Image Search App
                   </h5>
-                  <p className="mb-5 text-gray-700">
-                    work2の説明
-                  </p>
+                  <div className="mb-5 text-gray-700">
+                    <p>画像検索アプリ</p>
+                    <p>React/TypeScript/pixabay API</p>
+                  </div>
                   <button
                     type="submit"
                     className="border-2 border-sky-200 inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                   >
-                    Github
+                    <a href="https://github.com/ks0504/image-search-app" target="_blank" rel="noopener noreferrer">
+                      Github
+                    </a>
                   </button>
                 </div>
               </div>
-              <div className="w-auto transition duration-300 transform bg-white rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
+              <div className="w-auto lg:h-full transition duration-300 transform border-2 border-sky-200 bg-orange-300 rounded shadow-sm hover:-translate-y-1 hover:shadow md:text-center">
                 <div className="relative mx-auto w-64 h-96">
                   <Image
                     src="/images/photo/workout-mobileapp.png"
@@ -69,18 +75,21 @@ export const WorksSection = () => {
                     alt="workout tracker mobile app"
                   />
                 </div>
-                <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8 bg-orange-300">
+                <div className="px-6 py-8 border-0 rounded-b sm:px-8 bg-orange-300">
                   <h5 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-                    work3
+                    Workout Tracker Mobile App
                   </h5>
-                  <p className="mb-5 text-gray-700">
-                    work3の説明
-                  </p>
+                  <div className="mb-5 text-gray-700">
+                    <p>ワークアウト管理アプリ</p>
+                    <p>ReactNative/TypeScript</p>
+                  </div>
                   <button
                     type="submit"
                     className="border-2 border-sky-200 inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                   >
-                    Github
+                    <a href="https://github.com/yuchida-tamu/workout-tracker-mobile" target="_blank" rel="noopener noreferrer">
+                      Github
+                    </a>
                   </button>
                 </div>
               </div>

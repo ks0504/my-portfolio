@@ -36,6 +36,7 @@ export const SkillSection =() =>{
                         <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0 tracking-widest">
                             <h2 className="text-gray-900 text-2xl title-font font-medium mb-2">バックエンド</h2>
                             <li className="leading-8 text-xl">Java</li>
+                            <li className="leading-8 text-xl">SQL</li>
                             <li className="leading-8 text-xl">Node.js</li>
                         </div>
                     </div>
